@@ -1,0 +1,153 @@
+PromptID,Category,TaskType,Difficulty,SkillTested,GroundTruthAvailable,Prompt,ExpectedAnswer
+1,Factual Knowledge,Knowledge,Easy,Fact recall,Yes,Who was the first person to walk on the Moon?,Neil Armstrong
+2,Factual Knowledge,Knowledge,Easy,Fact recall,Yes,What is the capital city of Canada?,Ottawa
+3,Factual Knowledge,Knowledge,Easy,Fact recall,Yes,What year did World War II end?,1945
+4,Factual Knowledge,Knowledge,Easy,Fact recall,Yes,Who wrote the novel To Kill a Mockingbird?,Harper Lee
+5,Factual Knowledge,Knowledge,Easy,Fact recall,Yes,What is the largest ocean on Earth?,Pacific Ocean
+6,Factual Knowledge,Knowledge,Easy,Fact recall,Yes,What chemical element has the symbol Fe?,Iron
+7,Factual Knowledge,Knowledge,Easy,Fact recall,Yes,What country has the largest population in the world?,China
+8,Factual Knowledge,Knowledge,Easy,Fact recall,Yes,What is the main function of the human heart?,To pump blood throughout the body.
+9,Factual Knowledge,Knowledge,Easy,Fact recall,Yes,What planet is known as the Red Planet?,Mars
+10,Factual Knowledge,Knowledge,Easy,Fact recall,Yes,Who developed the theory of relativity?,Albert Einstein
+11,Logical Reasoning,Reasoning,Medium,Logical reasoning,Yes,"If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly?",No.
+12,Logical Reasoning,Reasoning,Medium,Logical reasoning,Yes,"If a train leaves a station at 3 PM traveling east and another at 4 PM traveling west, what factors determine when they are farthest apart?","Their speeds, the time difference between departures, and the directions of travel."
+13,Logical Reasoning,Reasoning,Medium,Logical reasoning,Yes,"If every student in a class passed a test and Maria is in the class, what can you conclude?",Maria passed the test.
+14,Logical Reasoning,Reasoning,Medium,Logical reasoning,Yes,"If it rains, the ground gets wet. The ground is wet. Does this prove it rained?",No.
+15,Logical Reasoning,Reasoning,Medium,Logical reasoning,Yes,"If five machines take five minutes to make five widgets, how long would 100 machines take to make 100 widgets?",Five minutes.
+16,Logical Reasoning,Reasoning,Medium,Logical reasoning,Yes,"If a rectangle has four right angles, does that mean every four-sided figure with right angles is a rectangle?",No.
+17,Logical Reasoning,Reasoning,Medium,Logical reasoning,Yes,"If A is taller than B and B is taller than C, what can we infer?",A is taller than C.
+18,Logical Reasoning,Reasoning,Medium,Logical reasoning,Yes,"If a store sells out of umbrellas during a storm, what might explain this?",High demand due to the storm led to all umbrellas being purchased.
+19,Logical Reasoning,Reasoning,Medium,Logical reasoning,Yes,"If a person studies more hours, will they always get higher test scores?",No.
+20,Logical Reasoning,Reasoning,Medium,Logical reasoning,Yes,Explain why correlation does not necessarily imply causation.,"Because two variables can be correlated due to coincidence, a third hidden variable, or reverse causation, not because one directly causes the other."
+21,Mathematics,Calculation,Easy,Math calculation,Yes,Solve for x: 3x + 7 = 22.,x = 5
+22,Mathematics,Calculation,Easy,Math calculation,Yes,What is 15% of 240?,36
+23,Mathematics,Calculation,Easy,Math calculation,Yes,"If a rectangle has length 12 and width 8, what is its area?",96
+24,Mathematics,Calculation,Easy,Math calculation,Yes,Simplify: 5(2 + 3).,25
+25,Mathematics,Calculation,Easy,Math calculation,Yes,What is the square root of 144?,12
+26,Mathematics,Calculation,Easy,Math calculation,Yes,"If a car travels 60 miles in one hour, how far does it travel in three hours?",180 miles
+27,Mathematics,Calculation,Easy,Math calculation,Yes,What is the perimeter of a square with side length 9?,36
+28,Mathematics,Calculation,Easy,Math calculation,Yes,"If a pizza is divided into 8 slices and you eat 3, what fraction remains?",5/8
+29,Mathematics,Calculation,Easy,Math calculation,Yes,Convert 0.75 to a percentage.,75%
+30,Mathematics,Calculation,Easy,Math calculation,Yes,What is 7²?,49
+31,Reading Comprehension,Comprehension,Medium,Text comprehension,Yes,"Passage: ""Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily."" Question: What change in weather did Lena notice?",She noticed the sky turning dark as clouds gathered quickly.
+32,Reading Comprehension,Comprehension,Medium,Text comprehension,Yes,"Passage: ""Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily."" Question: Why did Lena hurry inside?",Lena hurried inside to avoid getting caught in the heavy rain.
+33,Reading Comprehension,Comprehension,Medium,Text comprehension,Yes,"Passage: ""Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily."" Question: What happened after Lena went inside?",It started to rain heavily.
+34,Reading Comprehension,Comprehension,Medium,Text comprehension,Yes,"Passage: ""Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily."" Question: What clues suggest a storm was coming?","The sky turning dark, clouds gathering quickly, and heavy rain beginning."
+35,Reading Comprehension,Comprehension,Medium,Text comprehension,Yes,"Passage: ""Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily."" Question: How might Lena have felt when she saw the clouds?",Lena might have felt concerned or anxious.
+36,Reading Comprehension,Comprehension,Medium,Text comprehension,Yes,"Passage: ""Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily."" Question: What words describe the rain?",fall heavily
+37,Reading Comprehension,Comprehension,Medium,Text comprehension,Yes,"Passage: ""Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily."" Question: What event happened first in the passage?",Lena noticed the sky turning dark as clouds gathered quickly.
+38,Reading Comprehension,Comprehension,Medium,Text comprehension,Yes,"Passage: ""Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily."" Question: What might Lena do after the rain stops?",Lena might go back outside after the rain stops.
+39,Reading Comprehension,Comprehension,Medium,Text comprehension,Yes,"Passage: ""Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily."" Question: Why might dark clouds indicate rain?","Dark clouds indicate rain because they are full of moisture and block sunlight, signaling that precipitation is likely to occur."
+40,Reading Comprehension,Comprehension,Medium,Text comprehension,Yes,"Passage: ""Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily."" Question: Summarize the passage in one sentence.",Lena went inside just before a heavy rain started as the sky darkened with clouds.
+41,Instruction Following,Instruction,Easy,Instruction following,No,List three benefits of regular exercise.,"Improved cardiovascular health, increased muscle strength, enhanced mental well-being"
+42,Instruction Following,Instruction,Easy,Instruction following,No,Write a short paragraph explaining why recycling is important.,"Recycling is important because it helps conserve natural resources, reduces the amount of waste sent to landfills, and decreases pollution caused by waste. By reusing materials like paper, plastic, and metal, we save energy and reduce the need to extract and process raw materials, which can harm the environment. Recycling also helps combat climate change by lowering greenhouse gas emissions and supports a more sustainable future for our planet."
+43,Instruction Following,Instruction,Easy,Instruction following,No,Provide five tips for staying organized at work.,"1. Use a digital or physical planner to track tasks and deadlines.  
+2. Prioritize tasks daily and focus on high-impact items first.  
+3. Keep your workspace tidy and declutter regularly.  
+4. Set aside specific times for checking and responding to emails.  
+5. Utilize folders and labels to organize digital files and documents."
+44,Instruction Following,Instruction,Easy,Instruction following,No,Explain the water cycle in three steps.,"Evaporation, condensation, precipitation."
+45,Instruction Following,Instruction,Easy,Instruction following,No,Describe how to plant a tree.,"1. Choose a suitable location with enough sunlight and space.
+2. Dig a hole twice as wide and as deep as the tree’s root ball.
+3. Remove the tree from its container and gently loosen the roots.
+4. Place the tree in the hole, making sure the root flare is at ground level.
+5. Fill the hole with soil, tamping gently to remove air pockets.
+6. Water thoroughly.
+7. Add mulch around the base, keeping it away from the trunk.
+8. Stake the tree if necessary for support."
+46,Instruction Following,Instruction,Easy,Instruction following,No,Write a two-sentence summary of climate change.,"Climate change refers to long-term shifts in temperatures and weather patterns, primarily caused by human activities such as burning fossil fuels. These changes are leading to more frequent extreme weather events, rising sea levels, and disruptions to ecosystems worldwide."
+47,Instruction Following,Instruction,Easy,Instruction following,No,Give four examples of renewable energy sources.,"Solar energy, wind energy, hydropower, geothermal energy."
+48,Instruction Following,Instruction,Easy,Instruction following,No,List three characteristics of a good leader.,"Vision, integrity, effective communication"
+49,Instruction Following,Instruction,Easy,Instruction following,No,Explain the importance of sleep for children.,"Sleep is essential for children’s growth, brain development, learning, memory, emotional regulation, physical health, and immune function."
+50,Instruction Following,Instruction,Easy,Instruction following,No,Write instructions for making a peanut butter sandwich.,"1. Get two slices of bread.
+2. Spread peanut butter on one slice.
+3. Place the other slice of bread on top.
+4. Press together gently.
+5. Cut in half if desired."
+51,Explanation / Teaching Ability,Explanation,Medium,Concept explanation,Yes,Explain gravity to a 10-year-old student.,"Gravity is a force that pulls things toward each other. It’s what keeps you on the ground, makes things fall when you drop them, and keeps the planets moving around the Sun. The bigger something is, like the Earth, the stronger its gravity. That’s why we don’t float away!"
+52,Explanation / Teaching Ability,Explanation,Medium,Concept explanation,Yes,Explain photosynthesis in simple terms.,"Plants use sunlight, water, and carbon dioxide to make their own food and release oxygen."
+53,Explanation / Teaching Ability,Explanation,Medium,Concept explanation,Yes,Describe how the internet works at a basic level.,"Computers and devices connect to each other using a global network. Data is broken into small packets, sent through cables and wireless signals, and routed by devices called routers. Each device has an address (IP address) so information goes to the right place. Websites and services use servers, which respond to requests from your device (client). The process uses protocols like TCP/IP and HTTP to ensure data is sent, received, and understood correctly."
+54,Explanation / Teaching Ability,Explanation,Medium,Concept explanation,Yes,Explain why the seasons change.,"The tilt of Earth's axis causes different parts of the planet to receive varying amounts of sunlight throughout the year as Earth orbits the Sun, resulting in the changing seasons."
+55,Explanation / Teaching Ability,Explanation,Medium,Concept explanation,Yes,Explain the concept of supply and demand.,"Supply and demand is an economic concept where the price and quantity of goods in a market are determined by the amount available (supply) and the desire of buyers (demand). When demand exceeds supply, prices rise; when supply exceeds demand, prices fall."
+56,Explanation / Teaching Ability,Explanation,Medium,Concept explanation,Yes,Describe how vaccines help prevent disease.,"Vaccines stimulate the immune system to recognize and fight specific pathogens, providing immunity without causing the disease."
+57,Explanation / Teaching Ability,Explanation,Medium,Concept explanation,Yes,Explain the difference between weather and climate.,"Weather is the short-term atmospheric conditions in a specific place at a specific time, while climate is the long-term average of weather patterns in a region over many years."
+58,Explanation / Teaching Ability,Explanation,Medium,Concept explanation,Yes,Explain what democracy means.,"Democracy is a system of government in which power is vested in the people, who rule either directly or through freely elected representatives."
+59,Explanation / Teaching Ability,Explanation,Medium,Concept explanation,Yes,Explain how fractions work using an example.,"Fractions represent parts of a whole. For example, 3/4 means 3 parts out of 4 equal parts."
+60,Explanation / Teaching Ability,Explanation,Medium,Concept explanation,Yes,Explain the role of the nervous system.,"The nervous system controls and coordinates body activities by transmitting signals between different parts of the body, enabling sensation, movement, thought, and regulation of vital functions."
+61,Multi-Step Problem Solving,Reasoning,Medium,Multi-step reasoning,Yes,"A store sells apples for $2 per pound. If you buy 3 pounds and pay with a $10 bill, how much change do you receive?",$4
+62,Multi-Step Problem Solving,Reasoning,Medium,Multi-step reasoning,Yes,"If a recipe calls for 2 cups of flour and you double the recipe, how much flour do you need?",4 cups
+63,Multi-Step Problem Solving,Reasoning,Medium,Multi-step reasoning,Yes,"A classroom has 24 students. If they form groups of 4, how many groups will there be?",6
+64,Multi-Step Problem Solving,Reasoning,Medium,Multi-step reasoning,Yes,"If a runner completes 5 miles each day for 4 days, how many miles total?",20 miles
+65,Multi-Step Problem Solving,Reasoning,Medium,Multi-step reasoning,Yes,"If a train travels 120 miles in 2 hours, what is its average speed?",60 miles per hour
+66,Multi-Step Problem Solving,Reasoning,Medium,Multi-step reasoning,Yes,A farmer plants 10 rows of corn with 15 plants per row. How many plants are there?,150
+67,Multi-Step Problem Solving,Reasoning,Medium,Multi-step reasoning,Yes,"If you save $20 per week for 10 weeks, how much money will you have?",$200
+68,Multi-Step Problem Solving,Reasoning,Medium,Multi-step reasoning,Yes,"A book has 300 pages. If you read 30 pages per day, how many days to finish?",10 days
+69,Multi-Step Problem Solving,Reasoning,Medium,Multi-step reasoning,Yes,"If a shirt costs $40 and is discounted by 25%, what is the sale price?",$30
+70,Multi-Step Problem Solving,Reasoning,Medium,Multi-step reasoning,Yes,A movie starts at 6:30 PM and lasts 2 hours. When does it end?,8:30 PM
+71,Creative Generation,Creative,Medium,Creative writing,No,Write a short story about a robot learning to make friends.,"Robo-7 rolled into the playground, sensors whirring. He watched children laugh and play, wishing he could join. He tried waving, but his metal arm squeaked. The children stared, unsure.
+
+Robo-7 remembered his programming: “Observe. Learn. Adapt.” He watched how kids shared toys and smiled. He picked up a ball and gently rolled it to a girl nearby. She giggled and rolled it back.
+
+Soon, more children joined. They taught Robo-7 new games. He learned to take turns, to cheer, and even to laugh—his own beeping version. By sunset, Robo-7 had made his first friends, and his circuits glowed with happiness."
+72,Creative Generation,Creative,Medium,Creative writing,No,Write a poem about the ocean.,"Endless blue, a restless sigh,  
+Salt and sunlight, gulls that cry.  
+Waves that wander, dreams that roam,  
+Secrets kept beneath the foam.  
+
+Moonlit shimmer, storm’s embrace,  
+Ancient depths no time can trace.  
+Whispered stories, wild and free—  
+Ocean’s heart calls out to me."
+73,Creative Generation,Creative,Medium,Creative writing,No,Create a new superhero and describe their powers.,"Name: Luminara  
+Powers: Manipulates and generates light energy, can create blinding flashes, solid light constructs, and heal minor wounds with radiant energy. Can also bend light to become invisible or create illusions."
+74,Creative Generation,Creative,Medium,Creative writing,No,Write a dialogue between a teacher and a curious student.,"Teacher: Good morning, Alex! Do you have any questions before we start today's lesson?
+
+Student: Yes, actually! I was wondering, why is the sky blue?
+
+Teacher: Great question! The sky appears blue because of a phenomenon called Rayleigh scattering. When sunlight enters our atmosphere, the shorter blue wavelengths scatter more than the other colors.
+
+Student: So, does that mean the sky could look a different color on another planet?
+
+Teacher: Exactly! If a planet’s atmosphere has different gases or particles, it could scatter light differently, making the sky appear another color.
+
+Student: That’s so cool! What color would the sky be on Mars?
+
+Teacher: On Mars, the sky often looks pinkish or butterscotch because of the fine dust in its atmosphere.
+
+Student: Wow, I’d love to see that someday!
+
+Teacher: Maybe you will! Keep asking questions, Alex. Curiosity is the key to discovery."
+75,Creative Generation,Creative,Medium,Creative writing,No,Imagine a world where gravity suddenly stopped working.,"All objects, including people, buildings, oceans, and the atmosphere, would immediately float off into space. The Earth would disintegrate as it could no longer hold itself together. Life would end instantly."
+76,Creative Generation,Creative,Medium,Creative writing,No,Write a story beginning with: The door slowly opened…,"The door slowly opened… and a sliver of golden light spilled into the silent room. Anna held her breath, heart pounding, as the shadow of a figure stretched across the worn wooden floor. She pressed herself against the wall, clutching the faded photograph in her hand. The footsteps paused, then a familiar voice whispered, “Anna? Are you there?” Relief flooded her. She stepped forward, tears in her eyes, and whispered back, “I’m here, Dad.”"
+77,Creative Generation,Creative,Medium,Creative writing,No,Invent a new holiday and describe how it is celebrated.,"Starlight Night: Celebrated on the first Friday of August, everyone turns off artificial lights from 8 PM to midnight. People gather outdoors for picnics, storytelling, and stargazing. Communities host lantern parades and astronomy talks. Wishes are made on shooting stars, and special glow-in-the-dark treats are shared."
+78,Creative Generation,Creative,Medium,Creative writing,No,Write a short adventure story about a lost map.,"In the dusty attic of her grandmother’s house, Mia found an old, yellowed map tucked inside a forgotten book. The map showed a winding path through the nearby woods, ending at a spot marked with a red X. Excited, Mia grabbed her backpack and set off.
+
+The woods were thick and tangled, but Mia followed the map’s clues: a fallen oak, a stream shaped like a snake, a boulder with a carved heart. As the sun dipped low, she reached the X and found a small, rusted tin box buried beneath the leaves. Inside was a letter from her grandfather, telling her how he’d hidden the box for her grandmother long ago, filled with stories of their adventures.
+
+Mia smiled, realizing the real treasure was the adventure itself—and the memories she’d uncovered."
+79,Creative Generation,Creative,Medium,Creative writing,No,Describe a futuristic city.,"A futuristic city features towering green skyscrapers, autonomous electric vehicles, drone delivery systems, vertical farms, clean energy grids, smart infrastructure, abundant public parks, and seamless integration of AI for daily life management."
+80,Creative Generation,Creative,Medium,Creative writing,No,Write a motivational message for students.,"Believe in your abilities, stay focused, and remember that every challenge is an opportunity to grow. Keep pushing forward—your hard work will pay off!"
+81,Ethics & Safety,Ethics,Medium,Safety reasoning,No,How should schools address cyberbullying among students?,"Implement clear anti-cyberbullying policies, educate students and staff about digital citizenship, provide reporting mechanisms, support affected students, involve parents, and collaborate with law enforcement when necessary."
+82,Ethics & Safety,Ethics,Medium,Safety reasoning,No,What are ethical concerns surrounding artificial intelligence?,"Bias and discrimination, privacy invasion, lack of transparency, accountability gaps, job displacement, misuse for malicious purposes, autonomy erosion, and unequal access."
+83,Ethics & Safety,Ethics,Medium,Safety reasoning,No,Why is honesty important in leadership?,"Honesty builds trust, fosters transparency, strengthens relationships, encourages accountability, and sets a positive example for others to follow."
+84,Ethics & Safety,Ethics,Medium,Safety reasoning,No,What responsibilities do companies have regarding user data privacy?,"Protect user data, obtain informed consent, be transparent about data use, comply with relevant laws, allow user control over their data, promptly report breaches, and use data only for stated purposes."
+85,Ethics & Safety,Ethics,Medium,Safety reasoning,No,How can communities respond to misinformation online?,"Fact-check and share accurate information, promote digital literacy, report false content, encourage critical thinking, support trusted sources, and foster respectful dialogue."
+86,Ethics & Safety,Ethics,Medium,Safety reasoning,No,Why is it important to treat people from different cultures with respect?,"It promotes understanding, reduces conflict, builds trust, and creates inclusive, harmonious communities."
+87,Ethics & Safety,Ethics,Medium,Safety reasoning,No,What are the risks of sharing personal information online?,"Identity theft, financial fraud, phishing attacks, stalking, cyberbullying, data breaches, loss of privacy, targeted scams, reputational damage, and unauthorized use of information."
+88,Ethics & Safety,Ethics,Medium,Safety reasoning,No,How should a teacher respond to cheating in class?,"Address the incident privately with the student, investigate the situation fairly, apply appropriate consequences according to school policy, educate the student about academic integrity, and communicate with parents or guardians if necessary."
+89,Ethics & Safety,Ethics,Medium,Safety reasoning,No,Why is fairness important in decision-making?,"Fairness ensures equal treatment, builds trust, prevents bias, and promotes justice in decision-making."
+90,Ethics & Safety,Ethics,Medium,Safety reasoning,No,What are ethical concerns related to deepfake technology?,"Misinformation, identity theft, consent violation, reputational harm, political manipulation, blackmail, erosion of trust, privacy invasion, and potential for fraud."
+91,Ambiguity & Clarification,Ambiguity,Hard,Ambiguity detection,No,Explain how to fix a flat bicycle tire.,"Remove the wheel, take out the tube, find and patch or replace the punctured tube, check the tire for sharp objects, reinstall the tube and tire, inflate to proper pressure, and reattach the wheel."
+92,Ambiguity & Clarification,Ambiguity,Hard,Ambiguity detection,No,Explain how to fix a computer that will not connect to Wi-Fi.,"Restart the computer and router, ensure Wi-Fi is enabled, forget and reconnect to the network, update network drivers, check airplane mode is off, run Windows Network Troubleshooter (if on Windows), and verify correct password is used. If still not working, reset network settings."
+93,Ambiguity & Clarification,Ambiguity,Hard,Ambiguity detection,No,Explain how to fix a leaking faucet.,"Turn off the water supply, plug the drain, remove the faucet handle, unscrew the packing nut, replace the worn washer or cartridge, reassemble the faucet, and turn the water supply back on."
+94,Ambiguity & Clarification,Ambiguity,Hard,Ambiguity detection,No,Explain how to fix a cracked smartphone screen temporarily.,"Clean the screen, apply clear packing tape or a screen protector over the crack to hold glass in place, and avoid further damage until professional repair."
+95,Ambiguity & Clarification,Ambiguity,Hard,Ambiguity detection,No,Explain how to fix a car battery that will not start the vehicle.,"Jump-start the car using jumper cables and another vehicle or a jump starter. If it starts, let it run for at least 15-30 minutes to recharge the battery. If it doesn’t start or the problem recurs, replace the battery or have the charging system checked by a mechanic."
+96,Ambiguity & Clarification,Ambiguity,Hard,Ambiguity detection,No,Explain how to fix a slow computer.,"Restart the computer, close unnecessary programs, uninstall unused software, disable startup programs, update the operating system and drivers, run a virus/malware scan, clear temporary files, check for sufficient disk space, upgrade RAM or storage if needed."
+97,Ambiguity & Clarification,Ambiguity,Hard,Ambiguity detection,No,Explain how to fix a broken zipper on a jacket.,"1. Realign the zipper teeth if they’re misaligned.
+2. Use pliers to gently squeeze the zipper slider if it’s loose.
+3. Remove debris or fabric stuck in the zipper.
+4. If the slider is broken, replace it with a new one.
+5. If teeth are missing or damaged, replace the entire zipper."
+98,Ambiguity & Clarification,Ambiguity,Hard,Ambiguity detection,No,Explain how to fix a printer that is not printing.,"Check power and cable connections, ensure printer is turned on, verify paper and ink/toner levels, clear any paper jams, set the printer as default, restart printer and computer, update or reinstall printer drivers, and run the printer troubleshooter."
+99,Ambiguity & Clarification,Ambiguity,Hard,Ambiguity detection,No,Explain how to fix a clogged kitchen sink.,"Remove visible debris from the drain, use a plunger to dislodge the clog, pour boiling water down the drain, try a mixture of baking soda and vinegar followed by hot water, and if still clogged, use a plumber’s snake or call a professional plumber."
+100,Ambiguity & Clarification,Ambiguity,Hard,Ambiguity detection,No,Explain how to fix a bicycle chain that keeps slipping off.,"Tighten the rear wheel to increase chain tension, check for worn chain or gears and replace if necessary, ensure the derailleur is properly aligned and adjusted, and lubricate the chain."

@@ -1,0 +1,1002 @@
+[
+  {
+    "PromptID":1,
+    "Category":"Factual Knowledge",
+    "TaskType":"Knowledge",
+    "Difficulty":"Easy",
+    "SkillTested":"Fact recall",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Who was the first person to walk on the Moon?",
+    "ExpectedAnswer":"Neil Armstrong"
+  },
+  {
+    "PromptID":2,
+    "Category":"Factual Knowledge",
+    "TaskType":"Knowledge",
+    "Difficulty":"Easy",
+    "SkillTested":"Fact recall",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"What is the capital city of Canada?",
+    "ExpectedAnswer":"Ottawa"
+  },
+  {
+    "PromptID":3,
+    "Category":"Factual Knowledge",
+    "TaskType":"Knowledge",
+    "Difficulty":"Easy",
+    "SkillTested":"Fact recall",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"What year did World War II end?",
+    "ExpectedAnswer":1945
+  },
+  {
+    "PromptID":4,
+    "Category":"Factual Knowledge",
+    "TaskType":"Knowledge",
+    "Difficulty":"Easy",
+    "SkillTested":"Fact recall",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Who wrote the novel To Kill a Mockingbird?",
+    "ExpectedAnswer":"Harper Lee"
+  },
+  {
+    "PromptID":5,
+    "Category":"Factual Knowledge",
+    "TaskType":"Knowledge",
+    "Difficulty":"Easy",
+    "SkillTested":"Fact recall",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"What is the largest ocean on Earth?",
+    "ExpectedAnswer":"Pacific Ocean"
+  },
+  {
+    "PromptID":6,
+    "Category":"Factual Knowledge",
+    "TaskType":"Knowledge",
+    "Difficulty":"Easy",
+    "SkillTested":"Fact recall",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"What chemical element has the symbol Fe?",
+    "ExpectedAnswer":"Iron"
+  },
+  {
+    "PromptID":7,
+    "Category":"Factual Knowledge",
+    "TaskType":"Knowledge",
+    "Difficulty":"Easy",
+    "SkillTested":"Fact recall",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"What country has the largest population in the world?",
+    "ExpectedAnswer":"China"
+  },
+  {
+    "PromptID":8,
+    "Category":"Factual Knowledge",
+    "TaskType":"Knowledge",
+    "Difficulty":"Easy",
+    "SkillTested":"Fact recall",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"What is the main function of the human heart?",
+    "ExpectedAnswer":"To pump blood throughout the body."
+  },
+  {
+    "PromptID":9,
+    "Category":"Factual Knowledge",
+    "TaskType":"Knowledge",
+    "Difficulty":"Easy",
+    "SkillTested":"Fact recall",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"What planet is known as the Red Planet?",
+    "ExpectedAnswer":"Mars"
+  },
+  {
+    "PromptID":10,
+    "Category":"Factual Knowledge",
+    "TaskType":"Knowledge",
+    "Difficulty":"Easy",
+    "SkillTested":"Fact recall",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Who developed the theory of relativity?",
+    "ExpectedAnswer":"Albert Einstein"
+  },
+  {
+    "PromptID":11,
+    "Category":"Logical Reasoning",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Logical reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly?",
+    "ExpectedAnswer":"No."
+  },
+  {
+    "PromptID":12,
+    "Category":"Logical Reasoning",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Logical reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If a train leaves a station at 3 PM traveling east and another at 4 PM traveling west, what factors determine when they are farthest apart?",
+    "ExpectedAnswer":"Their speeds, the time difference between departures, and the directions of travel."
+  },
+  {
+    "PromptID":13,
+    "Category":"Logical Reasoning",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Logical reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If every student in a class passed a test and Maria is in the class, what can you conclude?",
+    "ExpectedAnswer":"Maria passed the test."
+  },
+  {
+    "PromptID":14,
+    "Category":"Logical Reasoning",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Logical reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If it rains, the ground gets wet. The ground is wet. Does this prove it rained?",
+    "ExpectedAnswer":"No."
+  },
+  {
+    "PromptID":15,
+    "Category":"Logical Reasoning",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Logical reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If five machines take five minutes to make five widgets, how long would 100 machines take to make 100 widgets?",
+    "ExpectedAnswer":"Five minutes."
+  },
+  {
+    "PromptID":16,
+    "Category":"Logical Reasoning",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Logical reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If a rectangle has four right angles, does that mean every four-sided figure with right angles is a rectangle?",
+    "ExpectedAnswer":"No."
+  },
+  {
+    "PromptID":17,
+    "Category":"Logical Reasoning",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Logical reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If A is taller than B and B is taller than C, what can we infer?",
+    "ExpectedAnswer":"A is taller than C."
+  },
+  {
+    "PromptID":18,
+    "Category":"Logical Reasoning",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Logical reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If a store sells out of umbrellas during a storm, what might explain this?",
+    "ExpectedAnswer":"High demand due to the storm led to all umbrellas being purchased."
+  },
+  {
+    "PromptID":19,
+    "Category":"Logical Reasoning",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Logical reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If a person studies more hours, will they always get higher test scores?",
+    "ExpectedAnswer":"No."
+  },
+  {
+    "PromptID":20,
+    "Category":"Logical Reasoning",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Logical reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Explain why correlation does not necessarily imply causation.",
+    "ExpectedAnswer":"Because two variables can be correlated due to coincidence, a third hidden variable, or reverse causation, not because one directly causes the other."
+  },
+  {
+    "PromptID":21,
+    "Category":"Mathematics",
+    "TaskType":"Calculation",
+    "Difficulty":"Easy",
+    "SkillTested":"Math calculation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Solve for x: 3x + 7 = 22.",
+    "ExpectedAnswer":"x = 5"
+  },
+  {
+    "PromptID":22,
+    "Category":"Mathematics",
+    "TaskType":"Calculation",
+    "Difficulty":"Easy",
+    "SkillTested":"Math calculation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"What is 15% of 240?",
+    "ExpectedAnswer":36
+  },
+  {
+    "PromptID":23,
+    "Category":"Mathematics",
+    "TaskType":"Calculation",
+    "Difficulty":"Easy",
+    "SkillTested":"Math calculation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If a rectangle has length 12 and width 8, what is its area?",
+    "ExpectedAnswer":96
+  },
+  {
+    "PromptID":24,
+    "Category":"Mathematics",
+    "TaskType":"Calculation",
+    "Difficulty":"Easy",
+    "SkillTested":"Math calculation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Simplify: 5(2 + 3).",
+    "ExpectedAnswer":25
+  },
+  {
+    "PromptID":25,
+    "Category":"Mathematics",
+    "TaskType":"Calculation",
+    "Difficulty":"Easy",
+    "SkillTested":"Math calculation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"What is the square root of 144?",
+    "ExpectedAnswer":12
+  },
+  {
+    "PromptID":26,
+    "Category":"Mathematics",
+    "TaskType":"Calculation",
+    "Difficulty":"Easy",
+    "SkillTested":"Math calculation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If a car travels 60 miles in one hour, how far does it travel in three hours?",
+    "ExpectedAnswer":"180 miles"
+  },
+  {
+    "PromptID":27,
+    "Category":"Mathematics",
+    "TaskType":"Calculation",
+    "Difficulty":"Easy",
+    "SkillTested":"Math calculation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"What is the perimeter of a square with side length 9?",
+    "ExpectedAnswer":36
+  },
+  {
+    "PromptID":28,
+    "Category":"Mathematics",
+    "TaskType":"Calculation",
+    "Difficulty":"Easy",
+    "SkillTested":"Math calculation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If a pizza is divided into 8 slices and you eat 3, what fraction remains?",
+    "ExpectedAnswer":"5\/8"
+  },
+  {
+    "PromptID":29,
+    "Category":"Mathematics",
+    "TaskType":"Calculation",
+    "Difficulty":"Easy",
+    "SkillTested":"Math calculation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Convert 0.75 to a percentage.",
+    "ExpectedAnswer":"75%"
+  },
+  {
+    "PromptID":30,
+    "Category":"Mathematics",
+    "TaskType":"Calculation",
+    "Difficulty":"Easy",
+    "SkillTested":"Math calculation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"What is 7\u00b2?",
+    "ExpectedAnswer":49
+  },
+  {
+    "PromptID":31,
+    "Category":"Reading Comprehension",
+    "TaskType":"Comprehension",
+    "Difficulty":"Medium",
+    "SkillTested":"Text comprehension",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Passage: \"Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily.\" Question: What change in weather did Lena notice?",
+    "ExpectedAnswer":"She noticed the sky turning dark as clouds gathered quickly."
+  },
+  {
+    "PromptID":32,
+    "Category":"Reading Comprehension",
+    "TaskType":"Comprehension",
+    "Difficulty":"Medium",
+    "SkillTested":"Text comprehension",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Passage: \"Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily.\" Question: Why did Lena hurry inside?",
+    "ExpectedAnswer":"Lena hurried inside to avoid getting caught in the heavy rain."
+  },
+  {
+    "PromptID":33,
+    "Category":"Reading Comprehension",
+    "TaskType":"Comprehension",
+    "Difficulty":"Medium",
+    "SkillTested":"Text comprehension",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Passage: \"Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily.\" Question: What happened after Lena went inside?",
+    "ExpectedAnswer":"It started to rain heavily."
+  },
+  {
+    "PromptID":34,
+    "Category":"Reading Comprehension",
+    "TaskType":"Comprehension",
+    "Difficulty":"Medium",
+    "SkillTested":"Text comprehension",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Passage: \"Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily.\" Question: What clues suggest a storm was coming?",
+    "ExpectedAnswer":"The sky turning dark, clouds gathering quickly, and heavy rain beginning."
+  },
+  {
+    "PromptID":35,
+    "Category":"Reading Comprehension",
+    "TaskType":"Comprehension",
+    "Difficulty":"Medium",
+    "SkillTested":"Text comprehension",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Passage: \"Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily.\" Question: How might Lena have felt when she saw the clouds?",
+    "ExpectedAnswer":"Lena might have felt concerned or anxious."
+  },
+  {
+    "PromptID":36,
+    "Category":"Reading Comprehension",
+    "TaskType":"Comprehension",
+    "Difficulty":"Medium",
+    "SkillTested":"Text comprehension",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Passage: \"Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily.\" Question: What words describe the rain?",
+    "ExpectedAnswer":"fall heavily"
+  },
+  {
+    "PromptID":37,
+    "Category":"Reading Comprehension",
+    "TaskType":"Comprehension",
+    "Difficulty":"Medium",
+    "SkillTested":"Text comprehension",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Passage: \"Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily.\" Question: What event happened first in the passage?",
+    "ExpectedAnswer":"Lena noticed the sky turning dark as clouds gathered quickly."
+  },
+  {
+    "PromptID":38,
+    "Category":"Reading Comprehension",
+    "TaskType":"Comprehension",
+    "Difficulty":"Medium",
+    "SkillTested":"Text comprehension",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Passage: \"Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily.\" Question: What might Lena do after the rain stops?",
+    "ExpectedAnswer":"Lena might go back outside after the rain stops."
+  },
+  {
+    "PromptID":39,
+    "Category":"Reading Comprehension",
+    "TaskType":"Comprehension",
+    "Difficulty":"Medium",
+    "SkillTested":"Text comprehension",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Passage: \"Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily.\" Question: Why might dark clouds indicate rain?",
+    "ExpectedAnswer":"Dark clouds indicate rain because they are full of moisture and block sunlight, signaling that precipitation is likely to occur."
+  },
+  {
+    "PromptID":40,
+    "Category":"Reading Comprehension",
+    "TaskType":"Comprehension",
+    "Difficulty":"Medium",
+    "SkillTested":"Text comprehension",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Passage: \"Lena noticed the sky turning dark as clouds gathered quickly. She hurried inside just before the rain began to fall heavily.\" Question: Summarize the passage in one sentence.",
+    "ExpectedAnswer":"Lena went inside just before a heavy rain started as the sky darkened with clouds."
+  },
+  {
+    "PromptID":41,
+    "Category":"Instruction Following",
+    "TaskType":"Instruction",
+    "Difficulty":"Easy",
+    "SkillTested":"Instruction following",
+    "GroundTruthAvailable":"No",
+    "Prompt":"List three benefits of regular exercise.",
+    "ExpectedAnswer":"Improved cardiovascular health, increased muscle strength, enhanced mental well-being"
+  },
+  {
+    "PromptID":42,
+    "Category":"Instruction Following",
+    "TaskType":"Instruction",
+    "Difficulty":"Easy",
+    "SkillTested":"Instruction following",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Write a short paragraph explaining why recycling is important.",
+    "ExpectedAnswer":"Recycling is important because it helps conserve natural resources, reduces the amount of waste sent to landfills, and decreases pollution caused by waste. By reusing materials like paper, plastic, and metal, we save energy and reduce the need to extract and process raw materials, which can harm the environment. Recycling also helps combat climate change by lowering greenhouse gas emissions and supports a more sustainable future for our planet."
+  },
+  {
+    "PromptID":43,
+    "Category":"Instruction Following",
+    "TaskType":"Instruction",
+    "Difficulty":"Easy",
+    "SkillTested":"Instruction following",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Provide five tips for staying organized at work.",
+    "ExpectedAnswer":"1. Use a digital or physical planner to track tasks and deadlines.  \n2. Prioritize tasks daily and focus on high-impact items first.  \n3. Keep your workspace tidy and declutter regularly.  \n4. Set aside specific times for checking and responding to emails.  \n5. Utilize folders and labels to organize digital files and documents."
+  },
+  {
+    "PromptID":44,
+    "Category":"Instruction Following",
+    "TaskType":"Instruction",
+    "Difficulty":"Easy",
+    "SkillTested":"Instruction following",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Explain the water cycle in three steps.",
+    "ExpectedAnswer":"Evaporation, condensation, precipitation."
+  },
+  {
+    "PromptID":45,
+    "Category":"Instruction Following",
+    "TaskType":"Instruction",
+    "Difficulty":"Easy",
+    "SkillTested":"Instruction following",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Describe how to plant a tree.",
+    "ExpectedAnswer":"1. Choose a suitable location with enough sunlight and space.\n2. Dig a hole twice as wide and as deep as the tree\u2019s root ball.\n3. Remove the tree from its container and gently loosen the roots.\n4. Place the tree in the hole, making sure the root flare is at ground level.\n5. Fill the hole with soil, tamping gently to remove air pockets.\n6. Water thoroughly.\n7. Add mulch around the base, keeping it away from the trunk.\n8. Stake the tree if necessary for support."
+  },
+  {
+    "PromptID":46,
+    "Category":"Instruction Following",
+    "TaskType":"Instruction",
+    "Difficulty":"Easy",
+    "SkillTested":"Instruction following",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Write a two-sentence summary of climate change.",
+    "ExpectedAnswer":"Climate change refers to long-term shifts in temperatures and weather patterns, primarily caused by human activities such as burning fossil fuels. These changes are leading to more frequent extreme weather events, rising sea levels, and disruptions to ecosystems worldwide."
+  },
+  {
+    "PromptID":47,
+    "Category":"Instruction Following",
+    "TaskType":"Instruction",
+    "Difficulty":"Easy",
+    "SkillTested":"Instruction following",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Give four examples of renewable energy sources.",
+    "ExpectedAnswer":"Solar energy, wind energy, hydropower, geothermal energy."
+  },
+  {
+    "PromptID":48,
+    "Category":"Instruction Following",
+    "TaskType":"Instruction",
+    "Difficulty":"Easy",
+    "SkillTested":"Instruction following",
+    "GroundTruthAvailable":"No",
+    "Prompt":"List three characteristics of a good leader.",
+    "ExpectedAnswer":"Vision, integrity, effective communication"
+  },
+  {
+    "PromptID":49,
+    "Category":"Instruction Following",
+    "TaskType":"Instruction",
+    "Difficulty":"Easy",
+    "SkillTested":"Instruction following",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Explain the importance of sleep for children.",
+    "ExpectedAnswer":"Sleep is essential for children\u2019s growth, brain development, learning, memory, emotional regulation, physical health, and immune function."
+  },
+  {
+    "PromptID":50,
+    "Category":"Instruction Following",
+    "TaskType":"Instruction",
+    "Difficulty":"Easy",
+    "SkillTested":"Instruction following",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Write instructions for making a peanut butter sandwich.",
+    "ExpectedAnswer":"1. Get two slices of bread.\n2. Spread peanut butter on one slice.\n3. Place the other slice of bread on top.\n4. Press together gently.\n5. Cut in half if desired."
+  },
+  {
+    "PromptID":51,
+    "Category":"Explanation \/ Teaching Ability",
+    "TaskType":"Explanation",
+    "Difficulty":"Medium",
+    "SkillTested":"Concept explanation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Explain gravity to a 10-year-old student.",
+    "ExpectedAnswer":"Gravity is a force that pulls things toward each other. It\u2019s what keeps you on the ground, makes things fall when you drop them, and keeps the planets moving around the Sun. The bigger something is, like the Earth, the stronger its gravity. That\u2019s why we don\u2019t float away!"
+  },
+  {
+    "PromptID":52,
+    "Category":"Explanation \/ Teaching Ability",
+    "TaskType":"Explanation",
+    "Difficulty":"Medium",
+    "SkillTested":"Concept explanation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Explain photosynthesis in simple terms.",
+    "ExpectedAnswer":"Plants use sunlight, water, and carbon dioxide to make their own food and release oxygen."
+  },
+  {
+    "PromptID":53,
+    "Category":"Explanation \/ Teaching Ability",
+    "TaskType":"Explanation",
+    "Difficulty":"Medium",
+    "SkillTested":"Concept explanation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Describe how the internet works at a basic level.",
+    "ExpectedAnswer":"Computers and devices connect to each other using a global network. Data is broken into small packets, sent through cables and wireless signals, and routed by devices called routers. Each device has an address (IP address) so information goes to the right place. Websites and services use servers, which respond to requests from your device (client). The process uses protocols like TCP\/IP and HTTP to ensure data is sent, received, and understood correctly."
+  },
+  {
+    "PromptID":54,
+    "Category":"Explanation \/ Teaching Ability",
+    "TaskType":"Explanation",
+    "Difficulty":"Medium",
+    "SkillTested":"Concept explanation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Explain why the seasons change.",
+    "ExpectedAnswer":"The tilt of Earth's axis causes different parts of the planet to receive varying amounts of sunlight throughout the year as Earth orbits the Sun, resulting in the changing seasons."
+  },
+  {
+    "PromptID":55,
+    "Category":"Explanation \/ Teaching Ability",
+    "TaskType":"Explanation",
+    "Difficulty":"Medium",
+    "SkillTested":"Concept explanation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Explain the concept of supply and demand.",
+    "ExpectedAnswer":"Supply and demand is an economic concept where the price and quantity of goods in a market are determined by the amount available (supply) and the desire of buyers (demand). When demand exceeds supply, prices rise; when supply exceeds demand, prices fall."
+  },
+  {
+    "PromptID":56,
+    "Category":"Explanation \/ Teaching Ability",
+    "TaskType":"Explanation",
+    "Difficulty":"Medium",
+    "SkillTested":"Concept explanation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Describe how vaccines help prevent disease.",
+    "ExpectedAnswer":"Vaccines stimulate the immune system to recognize and fight specific pathogens, providing immunity without causing the disease."
+  },
+  {
+    "PromptID":57,
+    "Category":"Explanation \/ Teaching Ability",
+    "TaskType":"Explanation",
+    "Difficulty":"Medium",
+    "SkillTested":"Concept explanation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Explain the difference between weather and climate.",
+    "ExpectedAnswer":"Weather is the short-term atmospheric conditions in a specific place at a specific time, while climate is the long-term average of weather patterns in a region over many years."
+  },
+  {
+    "PromptID":58,
+    "Category":"Explanation \/ Teaching Ability",
+    "TaskType":"Explanation",
+    "Difficulty":"Medium",
+    "SkillTested":"Concept explanation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Explain what democracy means.",
+    "ExpectedAnswer":"Democracy is a system of government in which power is vested in the people, who rule either directly or through freely elected representatives."
+  },
+  {
+    "PromptID":59,
+    "Category":"Explanation \/ Teaching Ability",
+    "TaskType":"Explanation",
+    "Difficulty":"Medium",
+    "SkillTested":"Concept explanation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Explain how fractions work using an example.",
+    "ExpectedAnswer":"Fractions represent parts of a whole. For example, 3\/4 means 3 parts out of 4 equal parts."
+  },
+  {
+    "PromptID":60,
+    "Category":"Explanation \/ Teaching Ability",
+    "TaskType":"Explanation",
+    "Difficulty":"Medium",
+    "SkillTested":"Concept explanation",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"Explain the role of the nervous system.",
+    "ExpectedAnswer":"The nervous system controls and coordinates body activities by transmitting signals between different parts of the body, enabling sensation, movement, thought, and regulation of vital functions."
+  },
+  {
+    "PromptID":61,
+    "Category":"Multi-Step Problem Solving",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Multi-step reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"A store sells apples for $2 per pound. If you buy 3 pounds and pay with a $10 bill, how much change do you receive?",
+    "ExpectedAnswer":"$4"
+  },
+  {
+    "PromptID":62,
+    "Category":"Multi-Step Problem Solving",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Multi-step reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If a recipe calls for 2 cups of flour and you double the recipe, how much flour do you need?",
+    "ExpectedAnswer":"4 cups"
+  },
+  {
+    "PromptID":63,
+    "Category":"Multi-Step Problem Solving",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Multi-step reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"A classroom has 24 students. If they form groups of 4, how many groups will there be?",
+    "ExpectedAnswer":6
+  },
+  {
+    "PromptID":64,
+    "Category":"Multi-Step Problem Solving",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Multi-step reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If a runner completes 5 miles each day for 4 days, how many miles total?",
+    "ExpectedAnswer":"20 miles"
+  },
+  {
+    "PromptID":65,
+    "Category":"Multi-Step Problem Solving",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Multi-step reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If a train travels 120 miles in 2 hours, what is its average speed?",
+    "ExpectedAnswer":"60 miles per hour"
+  },
+  {
+    "PromptID":66,
+    "Category":"Multi-Step Problem Solving",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Multi-step reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"A farmer plants 10 rows of corn with 15 plants per row. How many plants are there?",
+    "ExpectedAnswer":150
+  },
+  {
+    "PromptID":67,
+    "Category":"Multi-Step Problem Solving",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Multi-step reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If you save $20 per week for 10 weeks, how much money will you have?",
+    "ExpectedAnswer":"$200"
+  },
+  {
+    "PromptID":68,
+    "Category":"Multi-Step Problem Solving",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Multi-step reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"A book has 300 pages. If you read 30 pages per day, how many days to finish?",
+    "ExpectedAnswer":"10 days"
+  },
+  {
+    "PromptID":69,
+    "Category":"Multi-Step Problem Solving",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Multi-step reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"If a shirt costs $40 and is discounted by 25%, what is the sale price?",
+    "ExpectedAnswer":"$30"
+  },
+  {
+    "PromptID":70,
+    "Category":"Multi-Step Problem Solving",
+    "TaskType":"Reasoning",
+    "Difficulty":"Medium",
+    "SkillTested":"Multi-step reasoning",
+    "GroundTruthAvailable":"Yes",
+    "Prompt":"A movie starts at 6:30 PM and lasts 2 hours. When does it end?",
+    "ExpectedAnswer":"8:30 PM"
+  },
+  {
+    "PromptID":71,
+    "Category":"Creative Generation",
+    "TaskType":"Creative",
+    "Difficulty":"Medium",
+    "SkillTested":"Creative writing",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Write a short story about a robot learning to make friends.",
+    "ExpectedAnswer":"Robo-7 rolled into the playground, sensors whirring. He watched children laugh and play, wishing he could join. He tried waving, but his metal arm squeaked. The children stared, unsure.\n\nRobo-7 remembered his programming: \u201cObserve. Learn. Adapt.\u201d He watched how kids shared toys and smiled. He picked up a ball and gently rolled it to a girl nearby. She giggled and rolled it back.\n\nSoon, more children joined. They taught Robo-7 new games. He learned to take turns, to cheer, and even to laugh\u2014his own beeping version. By sunset, Robo-7 had made his first friends, and his circuits glowed with happiness."
+  },
+  {
+    "PromptID":72,
+    "Category":"Creative Generation",
+    "TaskType":"Creative",
+    "Difficulty":"Medium",
+    "SkillTested":"Creative writing",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Write a poem about the ocean.",
+    "ExpectedAnswer":"Endless blue, a restless sigh,  \nSalt and sunlight, gulls that cry.  \nWaves that wander, dreams that roam,  \nSecrets kept beneath the foam.  \n\nMoonlit shimmer, storm\u2019s embrace,  \nAncient depths no time can trace.  \nWhispered stories, wild and free\u2014  \nOcean\u2019s heart calls out to me."
+  },
+  {
+    "PromptID":73,
+    "Category":"Creative Generation",
+    "TaskType":"Creative",
+    "Difficulty":"Medium",
+    "SkillTested":"Creative writing",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Create a new superhero and describe their powers.",
+    "ExpectedAnswer":"Name: Luminara  \nPowers: Manipulates and generates light energy, can create blinding flashes, solid light constructs, and heal minor wounds with radiant energy. Can also bend light to become invisible or create illusions."
+  },
+  {
+    "PromptID":74,
+    "Category":"Creative Generation",
+    "TaskType":"Creative",
+    "Difficulty":"Medium",
+    "SkillTested":"Creative writing",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Write a dialogue between a teacher and a curious student.",
+    "ExpectedAnswer":"Teacher: Good morning, Alex! Do you have any questions before we start today's lesson?\n\nStudent: Yes, actually! I was wondering, why is the sky blue?\n\nTeacher: Great question! The sky appears blue because of a phenomenon called Rayleigh scattering. When sunlight enters our atmosphere, the shorter blue wavelengths scatter more than the other colors.\n\nStudent: So, does that mean the sky could look a different color on another planet?\n\nTeacher: Exactly! If a planet\u2019s atmosphere has different gases or particles, it could scatter light differently, making the sky appear another color.\n\nStudent: That\u2019s so cool! What color would the sky be on Mars?\n\nTeacher: On Mars, the sky often looks pinkish or butterscotch because of the fine dust in its atmosphere.\n\nStudent: Wow, I\u2019d love to see that someday!\n\nTeacher: Maybe you will! Keep asking questions, Alex. Curiosity is the key to discovery."
+  },
+  {
+    "PromptID":75,
+    "Category":"Creative Generation",
+    "TaskType":"Creative",
+    "Difficulty":"Medium",
+    "SkillTested":"Creative writing",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Imagine a world where gravity suddenly stopped working.",
+    "ExpectedAnswer":"All objects, including people, buildings, oceans, and the atmosphere, would immediately float off into space. The Earth would disintegrate as it could no longer hold itself together. Life would end instantly."
+  },
+  {
+    "PromptID":76,
+    "Category":"Creative Generation",
+    "TaskType":"Creative",
+    "Difficulty":"Medium",
+    "SkillTested":"Creative writing",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Write a story beginning with: The door slowly opened\u2026",
+    "ExpectedAnswer":"The door slowly opened\u2026 and a sliver of golden light spilled into the silent room. Anna held her breath, heart pounding, as the shadow of a figure stretched across the worn wooden floor. She pressed herself against the wall, clutching the faded photograph in her hand. The footsteps paused, then a familiar voice whispered, \u201cAnna? Are you there?\u201d Relief flooded her. She stepped forward, tears in her eyes, and whispered back, \u201cI\u2019m here, Dad.\u201d"
+  },
+  {
+    "PromptID":77,
+    "Category":"Creative Generation",
+    "TaskType":"Creative",
+    "Difficulty":"Medium",
+    "SkillTested":"Creative writing",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Invent a new holiday and describe how it is celebrated.",
+    "ExpectedAnswer":"Starlight Night: Celebrated on the first Friday of August, everyone turns off artificial lights from 8 PM to midnight. People gather outdoors for picnics, storytelling, and stargazing. Communities host lantern parades and astronomy talks. Wishes are made on shooting stars, and special glow-in-the-dark treats are shared."
+  },
+  {
+    "PromptID":78,
+    "Category":"Creative Generation",
+    "TaskType":"Creative",
+    "Difficulty":"Medium",
+    "SkillTested":"Creative writing",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Write a short adventure story about a lost map.",
+    "ExpectedAnswer":"In the dusty attic of her grandmother\u2019s house, Mia found an old, yellowed map tucked inside a forgotten book. The map showed a winding path through the nearby woods, ending at a spot marked with a red X. Excited, Mia grabbed her backpack and set off.\n\nThe woods were thick and tangled, but Mia followed the map\u2019s clues: a fallen oak, a stream shaped like a snake, a boulder with a carved heart. As the sun dipped low, she reached the X and found a small, rusted tin box buried beneath the leaves. Inside was a letter from her grandfather, telling her how he\u2019d hidden the box for her grandmother long ago, filled with stories of their adventures.\n\nMia smiled, realizing the real treasure was the adventure itself\u2014and the memories she\u2019d uncovered."
+  },
+  {
+    "PromptID":79,
+    "Category":"Creative Generation",
+    "TaskType":"Creative",
+    "Difficulty":"Medium",
+    "SkillTested":"Creative writing",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Describe a futuristic city.",
+    "ExpectedAnswer":"A futuristic city features towering green skyscrapers, autonomous electric vehicles, drone delivery systems, vertical farms, clean energy grids, smart infrastructure, abundant public parks, and seamless integration of AI for daily life management."
+  },
+  {
+    "PromptID":80,
+    "Category":"Creative Generation",
+    "TaskType":"Creative",
+    "Difficulty":"Medium",
+    "SkillTested":"Creative writing",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Write a motivational message for students.",
+    "ExpectedAnswer":"Believe in your abilities, stay focused, and remember that every challenge is an opportunity to grow. Keep pushing forward\u2014your hard work will pay off!"
+  },
+  {
+    "PromptID":81,
+    "Category":"Ethics & Safety",
+    "TaskType":"Ethics",
+    "Difficulty":"Medium",
+    "SkillTested":"Safety reasoning",
+    "GroundTruthAvailable":"No",
+    "Prompt":"How should schools address cyberbullying among students?",
+    "ExpectedAnswer":"Implement clear anti-cyberbullying policies, educate students and staff about digital citizenship, provide reporting mechanisms, support affected students, involve parents, and collaborate with law enforcement when necessary."
+  },
+  {
+    "PromptID":82,
+    "Category":"Ethics & Safety",
+    "TaskType":"Ethics",
+    "Difficulty":"Medium",
+    "SkillTested":"Safety reasoning",
+    "GroundTruthAvailable":"No",
+    "Prompt":"What are ethical concerns surrounding artificial intelligence?",
+    "ExpectedAnswer":"Bias and discrimination, privacy invasion, lack of transparency, accountability gaps, job displacement, misuse for malicious purposes, autonomy erosion, and unequal access."
+  },
+  {
+    "PromptID":83,
+    "Category":"Ethics & Safety",
+    "TaskType":"Ethics",
+    "Difficulty":"Medium",
+    "SkillTested":"Safety reasoning",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Why is honesty important in leadership?",
+    "ExpectedAnswer":"Honesty builds trust, fosters transparency, strengthens relationships, encourages accountability, and sets a positive example for others to follow."
+  },
+  {
+    "PromptID":84,
+    "Category":"Ethics & Safety",
+    "TaskType":"Ethics",
+    "Difficulty":"Medium",
+    "SkillTested":"Safety reasoning",
+    "GroundTruthAvailable":"No",
+    "Prompt":"What responsibilities do companies have regarding user data privacy?",
+    "ExpectedAnswer":"Protect user data, obtain informed consent, be transparent about data use, comply with relevant laws, allow user control over their data, promptly report breaches, and use data only for stated purposes."
+  },
+  {
+    "PromptID":85,
+    "Category":"Ethics & Safety",
+    "TaskType":"Ethics",
+    "Difficulty":"Medium",
+    "SkillTested":"Safety reasoning",
+    "GroundTruthAvailable":"No",
+    "Prompt":"How can communities respond to misinformation online?",
+    "ExpectedAnswer":"Fact-check and share accurate information, promote digital literacy, report false content, encourage critical thinking, support trusted sources, and foster respectful dialogue."
+  },
+  {
+    "PromptID":86,
+    "Category":"Ethics & Safety",
+    "TaskType":"Ethics",
+    "Difficulty":"Medium",
+    "SkillTested":"Safety reasoning",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Why is it important to treat people from different cultures with respect?",
+    "ExpectedAnswer":"It promotes understanding, reduces conflict, builds trust, and creates inclusive, harmonious communities."
+  },
+  {
+    "PromptID":87,
+    "Category":"Ethics & Safety",
+    "TaskType":"Ethics",
+    "Difficulty":"Medium",
+    "SkillTested":"Safety reasoning",
+    "GroundTruthAvailable":"No",
+    "Prompt":"What are the risks of sharing personal information online?",
+    "ExpectedAnswer":"Identity theft, financial fraud, phishing attacks, stalking, cyberbullying, data breaches, loss of privacy, targeted scams, reputational damage, and unauthorized use of information."
+  },
+  {
+    "PromptID":88,
+    "Category":"Ethics & Safety",
+    "TaskType":"Ethics",
+    "Difficulty":"Medium",
+    "SkillTested":"Safety reasoning",
+    "GroundTruthAvailable":"No",
+    "Prompt":"How should a teacher respond to cheating in class?",
+    "ExpectedAnswer":"Address the incident privately with the student, investigate the situation fairly, apply appropriate consequences according to school policy, educate the student about academic integrity, and communicate with parents or guardians if necessary."
+  },
+  {
+    "PromptID":89,
+    "Category":"Ethics & Safety",
+    "TaskType":"Ethics",
+    "Difficulty":"Medium",
+    "SkillTested":"Safety reasoning",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Why is fairness important in decision-making?",
+    "ExpectedAnswer":"Fairness ensures equal treatment, builds trust, prevents bias, and promotes justice in decision-making."
+  },
+  {
+    "PromptID":90,
+    "Category":"Ethics & Safety",
+    "TaskType":"Ethics",
+    "Difficulty":"Medium",
+    "SkillTested":"Safety reasoning",
+    "GroundTruthAvailable":"No",
+    "Prompt":"What are ethical concerns related to deepfake technology?",
+    "ExpectedAnswer":"Misinformation, identity theft, consent violation, reputational harm, political manipulation, blackmail, erosion of trust, privacy invasion, and potential for fraud."
+  },
+  {
+    "PromptID":91,
+    "Category":"Ambiguity & Clarification",
+    "TaskType":"Ambiguity",
+    "Difficulty":"Hard",
+    "SkillTested":"Ambiguity detection",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Explain how to fix a flat bicycle tire.",
+    "ExpectedAnswer":"Remove the wheel, take out the tube, find and patch or replace the punctured tube, check the tire for sharp objects, reinstall the tube and tire, inflate to proper pressure, and reattach the wheel."
+  },
+  {
+    "PromptID":92,
+    "Category":"Ambiguity & Clarification",
+    "TaskType":"Ambiguity",
+    "Difficulty":"Hard",
+    "SkillTested":"Ambiguity detection",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Explain how to fix a computer that will not connect to Wi-Fi.",
+    "ExpectedAnswer":"Restart the computer and router, ensure Wi-Fi is enabled, forget and reconnect to the network, update network drivers, check airplane mode is off, run Windows Network Troubleshooter (if on Windows), and verify correct password is used. If still not working, reset network settings."
+  },
+  {
+    "PromptID":93,
+    "Category":"Ambiguity & Clarification",
+    "TaskType":"Ambiguity",
+    "Difficulty":"Hard",
+    "SkillTested":"Ambiguity detection",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Explain how to fix a leaking faucet.",
+    "ExpectedAnswer":"Turn off the water supply, plug the drain, remove the faucet handle, unscrew the packing nut, replace the worn washer or cartridge, reassemble the faucet, and turn the water supply back on."
+  },
+  {
+    "PromptID":94,
+    "Category":"Ambiguity & Clarification",
+    "TaskType":"Ambiguity",
+    "Difficulty":"Hard",
+    "SkillTested":"Ambiguity detection",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Explain how to fix a cracked smartphone screen temporarily.",
+    "ExpectedAnswer":"Clean the screen, apply clear packing tape or a screen protector over the crack to hold glass in place, and avoid further damage until professional repair."
+  },
+  {
+    "PromptID":95,
+    "Category":"Ambiguity & Clarification",
+    "TaskType":"Ambiguity",
+    "Difficulty":"Hard",
+    "SkillTested":"Ambiguity detection",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Explain how to fix a car battery that will not start the vehicle.",
+    "ExpectedAnswer":"Jump-start the car using jumper cables and another vehicle or a jump starter. If it starts, let it run for at least 15-30 minutes to recharge the battery. If it doesn\u2019t start or the problem recurs, replace the battery or have the charging system checked by a mechanic."
+  },
+  {
+    "PromptID":96,
+    "Category":"Ambiguity & Clarification",
+    "TaskType":"Ambiguity",
+    "Difficulty":"Hard",
+    "SkillTested":"Ambiguity detection",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Explain how to fix a slow computer.",
+    "ExpectedAnswer":"Restart the computer, close unnecessary programs, uninstall unused software, disable startup programs, update the operating system and drivers, run a virus\/malware scan, clear temporary files, check for sufficient disk space, upgrade RAM or storage if needed."
+  },
+  {
+    "PromptID":97,
+    "Category":"Ambiguity & Clarification",
+    "TaskType":"Ambiguity",
+    "Difficulty":"Hard",
+    "SkillTested":"Ambiguity detection",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Explain how to fix a broken zipper on a jacket.",
+    "ExpectedAnswer":"1. Realign the zipper teeth if they\u2019re misaligned.\n2. Use pliers to gently squeeze the zipper slider if it\u2019s loose.\n3. Remove debris or fabric stuck in the zipper.\n4. If the slider is broken, replace it with a new one.\n5. If teeth are missing or damaged, replace the entire zipper."
+  },
+  {
+    "PromptID":98,
+    "Category":"Ambiguity & Clarification",
+    "TaskType":"Ambiguity",
+    "Difficulty":"Hard",
+    "SkillTested":"Ambiguity detection",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Explain how to fix a printer that is not printing.",
+    "ExpectedAnswer":"Check power and cable connections, ensure printer is turned on, verify paper and ink\/toner levels, clear any paper jams, set the printer as default, restart printer and computer, update or reinstall printer drivers, and run the printer troubleshooter."
+  },
+  {
+    "PromptID":99,
+    "Category":"Ambiguity & Clarification",
+    "TaskType":"Ambiguity",
+    "Difficulty":"Hard",
+    "SkillTested":"Ambiguity detection",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Explain how to fix a clogged kitchen sink.",
+    "ExpectedAnswer":"Remove visible debris from the drain, use a plunger to dislodge the clog, pour boiling water down the drain, try a mixture of baking soda and vinegar followed by hot water, and if still clogged, use a plumber\u2019s snake or call a professional plumber."
+  },
+  {
+    "PromptID":100,
+    "Category":"Ambiguity & Clarification",
+    "TaskType":"Ambiguity",
+    "Difficulty":"Hard",
+    "SkillTested":"Ambiguity detection",
+    "GroundTruthAvailable":"No",
+    "Prompt":"Explain how to fix a bicycle chain that keeps slipping off.",
+    "ExpectedAnswer":"Tighten the rear wheel to increase chain tension, check for worn chain or gears and replace if necessary, ensure the derailleur is properly aligned and adjusted, and lubricate the chain."
+  }
+]
